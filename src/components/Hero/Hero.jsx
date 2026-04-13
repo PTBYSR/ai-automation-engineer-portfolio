@@ -1,5 +1,5 @@
 import './Hero.css';
-import profileImg from '../../assets/profile.png';
+import heroImg from '../../assets/hero-image-aap.png';
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-image-container fade-in">
-        <img src={profileImg} alt="Paul-Simon Emechebe" className="hero-image" />
+        <img src={heroImg} alt="Paul-Simon Emechebe" className="hero-image" />
       </div>
     </section>
   );

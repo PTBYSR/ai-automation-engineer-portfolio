@@ -1,5 +1,4 @@
-import Card from '../components/Shared/Card';
-import { Award, CheckCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import './About.css';
 
 const About = () => {
@@ -7,19 +6,6 @@ const About = () => {
     "AI Automation", "AI System Architecture", "LLM Integration", 
     "Workflow Scaling", "Process Optimization", "AI Implementation",
     "Bubble.io", "n8n / Make.com", "AI Agents & RAG"
-  ];
-
-  const certifications = [
-    {
-      title: "HNG Finalist (No-Code Automation)",
-      issuer: "HNG Tech",
-      date: "December 2023"
-    },
-    {
-      title: "AI Micro-Certification (AIC)",
-      issuer: "Product School",
-      date: "May 2024"
-    }
   ];
 
   return (
@@ -49,21 +35,6 @@ const About = () => {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        <div className="about-certs">
-          <h3>Certifications</h3>
-          <div className="certs-list">
-            {certifications.map((cert, index) => (
-              <Card key={index} className="cert-card">
-                <Award className="cert-icon" size={32} />
-                <div className="cert-info">
-                  <h4>{cert.title}</h4>
-                  <p>{cert.issuer} • {cert.date}</p>
-                </div>
-              </Card>
-            ))}
           </div>
         </div>
       </div>

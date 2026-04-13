@@ -1,0 +1,12 @@
+.card {
+  background: var(--geist-background);
+  border-radius: var(--radius);
+  padding: var(--geist-gap);
+  border: 1px solid var(--accents-2);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  border-color: var(--accents-5);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+}
